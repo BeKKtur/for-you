@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100b12">
+  <title>Мой маленький мир ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Начальная анимация -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-butterfly">🦋</div>
+      <p>Маленький мир больших чувств</p>
+      <h2>Добро пожаловать...</h2>
+      <div class="loader-line"><span></span></div>
+    </div>
+  </div>
+
+  <div class="petals" id="petals"></div>
+
+  <!-- Главный экран -->
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <a class="logo" href="#home">B<span>♡</span></a>
+
+      <div class="nav-links">
+        <a href="#home">Главная</a>
+        <a href="#about">Обо мне</a>
+        <a href="#gallery">Фото</a>
+        <a href="#contact">Контакты</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+    </nav>
+
+    <div class="hero-content reveal">
+      <p class="eyebrow">✦ Привет, незнакомец</p>
+      <h1>Мой маленький<br><span>мир</span></h1>
+      <p class="handwriting">Рада, что ты здесь ♡</p>
+      <p class="hero-description">
+        Немного мечтаний, красивых моментов<br>
+        и всего, что согревает мою душу.
+      </p>
+      <a class="button" href="#gallery">Открыть мой мир <span>↓</span></a>
+    </div>
+
+    <div class="hero-note">SCROLL TO EXPLORE <span>↓</span></div>
+    <div class="hero-number">01 / 04</div>
+  </header>
+
+  <!-- О себе -->
+  <section class="about section" id="about">
+    <div class="about-image reveal">
+      <img
+        src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=85"
+        alt="Спокойное море на закате"
+        loading="lazy"
+      >
+      <span class="image-caption">somewhere in my dreams ♡</span>
+    </div>
+
+    <div class="about-content reveal">
+      <p class="eyebrow">✦ Немного обо мне</p>
+      <h2>История,<br>которую я <span>пишу</span></h2>
+      <p>
+        Я люблю маленькие радости, долгие прогулки,
+        музыку в наушниках и моменты, которые хочется
+        сохранить навсегда.
+      </p>
+      <p>
+        Верю, что красота скрывается в деталях:
+        в тёплом свете, случайных улыбках и простых
+        мгновениях, которые становятся воспоминаниями.
+      </p>
+      <div class="about-tags">
+        <span>♡ Мечты</span>
+        <span>♫ Музыка</span>
+        <span>✿ Эстетика</span>
+      </div>
+      <p class="handwriting about-signature">С любовью, я ♡</p>
+    </div>
+  </section>
+
+  <!-- Четыре фотографии -->
+  <section class="gallery section" id="gallery">
+    <div class="section-heading reveal">
+      <div>
+        <p class="eyebrow">✦ Моя маленькая галерея</p>
+        <h2>Моменты, которые<br>хочется <span>помнить</span></h2>
+      </div>
+      <p class="gallery-count">04 любимых момента ♡</p>
+    </div>
+
+    <div class="gallery-grid">
+      <article class="photo-card reveal">
+        <img
+          src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85"
+          alt="Горы и озеро"
+          loading="lazy"
+        >
+        <div class="photo-overlay">
+          <span>01 — Путешествия</span>
+          <h3>Туда, где спокойно</h3>
+        </div>
+      </article>
+
+      <article class="photo-card reveal">
+        <img
+          src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85"
+          alt="Нежные розовые цветы"
+          loading="lazy"
+        >
+        <div class="photo-overlay">
+          <span>02 — Красота</span>
+          <h3>Цветы для души</h3>
+        </div>
+      </article>
+
+      <article class="photo-card reveal">
+        <img
+          src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85"
+          alt="Звёздное ночное небо"
+          loading="lazy"
+        >
+        <div class="photo-overlay">
+          <span>03 — Мечты</span>
+          <h3>Под одним небом</h3>
+        </div>
+      </article>
+
+      <article class="photo-card reveal">
+        <img
+          src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=85"
+          alt="Уютное кафе"
+          loading="lazy"
+        >
+        <div class="photo-overlay">
+          <span>04 — Уют</span>
+          <h3>Маленькое счастье</h3>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Цитата -->
+  <section class="quote-section reveal">
+    <div class="quote-inner">
+      <span class="quote-symbol">“</span>
+      <p>Даже самые маленькие моменты<br>
+        могут стать самыми дорогими воспоминаниями.</p>
+      <span class="handwriting">Не забывай мечтать ♡</span>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer id="contact">
+    <a class="logo" href="#home">B<span>♡</span></a>
+    <p>Спасибо, что заглянул в мой мир.</p>
+    <a class="back-top" href="#home">Наверх ↑</a>
+    <span class="footer-heart">Made with ♡</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
